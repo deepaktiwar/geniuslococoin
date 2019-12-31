@@ -218,4 +218,4 @@ class LocoCoinsBot(discord.Client):
               await message.delete()
 
 bot = LocoCoinsBot()
-bot.run('NjM4NDM0OTA5OTE1OTcxNTk0.XdLAWA.Y1Jlpd44LLg2KeRFDpszndf_TJg')
+bot.run('NjYwODY1ODE5ODY5NDQ2MTU1.Xgs0yg.yK55BIvqvmVxCYHjlThBbXQW6Sw')
