@@ -15,7 +15,7 @@ import loco_functions
 TOKEN ="NTkwOTc4MjkxNDgyMjMwODE0.XQqFoA.W5nxHRw5WpYwLE2-dXdCvX_eliY"
 
 CANT_SEND_VERIF_CODE_MSG = discord.Embed(title="Error sending verification code!", color=0x142c9c)
-CANT_SEND_VERIF_CODE_MSG.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", \
+CANT_SEND_VERIF_CODE_MSG.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", \
                 icon_url="https://cdn.discordapp.com/avatars/503905683163578368/e8e8948881e34bcaf4e67573ae58b8b3.png?size=256")
  
 WAITING_MSG = "**Enter verification Code: XXXX**"
@@ -74,7 +74,7 @@ class LocoCoinsBot(discord.Client):
           embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/587736810332094467/587980733558292483/unnamed.png")
           embed.add_field(name="To Get Some Loco Coins By Loco Practice Type.", value="**-loco** +91`<your_loco_number>`", inline=False)
           embed.add_field(name="For Verify Loco Account", value="**-code** `<you_received_otp>`", inline=False)
-          embed.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", \
+          embed.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", \
                 icon_url="https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg") 
           await message.channel.send(embed=embed)
           return
@@ -92,7 +92,7 @@ class LocoCoinsBot(discord.Client):
             if BOT_OWNER_ROLE not in [role.name for role in message.author.roles]:
               lol =discord.Embed(title="**Lol You Not Have **Access** role to use this bot",description="**User:**\n"+message.author.mention,color=0x142c9c)
               #lol.set_thumbnail(url=message.author.avatar_url)
-              lol.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", \
+              lol.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", \
                 icon_url="https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg")
               await message.channel.send(embed=lol)
               return
@@ -104,7 +104,7 @@ class LocoCoinsBot(discord.Client):
                 national_number = str(pp.national_number)
             except:
               worng =discord.Embed(title="worng use:",description="**Usage:\n-loco +91**`<your_loco_number>`\n"+message.author.mention,color=0x0000FF)
-              worng.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", \
+              worng.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", \
                 icon_url="https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg")
               await message.channel.send(embed=worng)
               return
@@ -121,7 +121,7 @@ class LocoCoinsBot(discord.Client):
             em.set_author(name="Loco Coins", icon_url="https://lh3.googleusercontent.com/X6YnhAu9xcb3qQ89mDHdDtJzb9Dyf2DytQTQRvLP8CloXhygKuicDyMsMmrK6S1uD1yY")
             em.set_thumbnail(url="https://cdn.discordapp.com/attachments/587736810332094467/587980733558292483/unnamed.png")
             em.add_field(name="verification code is sent!", value="**-code** `<you_received_otp>`", inline=False)
-            em.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", 
+            em.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", 
                 icon_url=f"https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg")
             await message.channel.send(embed=em)
             wait=discord.Embed(title="**User:**",description=message.author.mention,color=0x142c9c)
@@ -157,7 +157,7 @@ class LocoCoinsBot(discord.Client):
                 CANT_AUTH_MSG.add_field(name="all games play !",value="**try after 1day  .**\n**Please try again.**")
                 CANT_AUTH_MSG.set_author(name="Loco Coins", icon_url="https://lh3.googleusercontent.com/X6YnhAu9xcb3qQ89mDHdDtJzb9Dyf2DytQTQRvLP8CloXhygKuicDyMsMmrK6S1uD1yY")
                 CANT_AUTH_MSG.set_thumbnail(url="https://cdn.discordapp.com/attachments/587736810332094467/587980733558292483/unnamed.png")
-                CANT_AUTH_MSG.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", 
+                CANT_AUTH_MSG.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", 
                 icon_url="https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg")
                 await message.channel.send(embed=CANT_AUTH_MSG)
                 # await play_answer.edit(content=CANT_AUTH_MSG)
@@ -173,7 +173,7 @@ class LocoCoinsBot(discord.Client):
                       PRACTICE_ERR_MSG.add_field(name="Something went wrong!",value="**Try Again Later.**")
                       PRACTICE_ERR_MSG.set_author(name="Loco Coins", icon_url="https://lh3.googleusercontent.com/X6YnhAu9xcb3qQ89mDHdDtJzb9Dyf2DytQTQRvLP8CloXhygKuicDyMsMmrK6S1uD1yY")
                       PRACTICE_ERR_MSG.set_thumbnail(url="https://cdn.discordapp.com/attachments/587736810332094467/587980733558292483/unnamed.png")
-                      PRACTICE_ERR_MSG.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", \
+                      PRACTICE_ERR_MSG.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", \
                        icon_url="https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg")
                       await message.channel.send(embed=PRACTICE_ERR_MSG)
                         # await play_answer.edit(content=PRACTICE_ERR_MSG)
@@ -209,7 +209,7 @@ class LocoCoinsBot(discord.Client):
                 await play_answer.edit(content=play_answer.content)
                 al =discord.Embed(title="All games are played!",description="**User**\n"+message.author.mention,color=0xFF0066)
                 al.add_field(name="Game Stats:",value=practice_msg1)
-                al.set_footer(text=f"Made with ♥ by ⎝⧹𝗗𝗿. BOSS™╱⎠#0928", \
+                al.set_footer(text=f"Made with ♥ by MR.GENIUS KING#0001", \
                 icon_url="https://cdn.discordapp.com/attachments/626463527301021735/639093471382077440/images_1.jpeg")
                 await message.channel.send(embed=al)
                 return
