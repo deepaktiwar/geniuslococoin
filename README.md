@@ -1,1 +1,1 @@
-# geniuslococoin
+# free-coin
